@@ -1,5 +1,3 @@
-
-
 $ClientID      = ""        # Should be a ~36 hex character string; insert your info here
 $ClientSecret  = ""    # Should be a ~44 character string; insert your info here
 $tenantdomain  = "thecloudpro1.onmicrosoft.com"    # For example, contoso.onmicrosoft.com
@@ -19,3 +17,7 @@ if ($oauth.access_token -ne $null) {
 } else {
     Write-Host "ERROR: No Access Token"
 }
+
+
+
+#added new line
